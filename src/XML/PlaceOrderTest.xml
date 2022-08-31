@@ -1,0 +1,16 @@
+<suite name = "Place Order Test">
+    <test name = "Place An Order">
+        <parameter name = "browser" value = "chrome"></parameter>
+        <parameter name = "username" value = "bcf@gmail.com"></parameter>
+        <parameter name = "password" value = "123987"></parameter>
+        <parameter name = "country" value = "United States"></parameter>
+        <parameter name = "state" value = "Illinois"></parameter>
+        <parameter name = "city" value = "Libertyville"></parameter>
+        <parameter name = "address" value = "BlueWater"></parameter>
+        <parameter name = "zipCode" value = "60048"></parameter>
+        <parameter name = "phoneNumber" value = "8479863520"></parameter>
+        <classes>
+            <class name = "Test.PlaceOrderTest"></class>
+        </classes>
+    </test>
+</suite>

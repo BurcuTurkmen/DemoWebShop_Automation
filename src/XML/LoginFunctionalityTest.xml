@@ -1,0 +1,20 @@
+<suite name = "Login Functionality Test Suite">
+
+    <test name = "Login Positive Test">
+        <parameter name = "browser" value = "chrome"></parameter>
+        <parameter name = "username" value = "bcf@gmail.com"></parameter>
+        <parameter name = "password" value = "123987"></parameter>
+        <classes>
+            <class name = "Test.LoginFunctionalityTest"></class>
+        </classes>
+    </test>
+
+    <test name = "Login Negative Test">
+        <parameter name = "browser" value = "chrome"></parameter>
+        <parameter name = "username" value = "cbf@gmail.com"></parameter>
+        <parameter name = "password" value = "987123"></parameter>
+        <classes>
+            <class name = "Test.LoginFunctionalityTest"></class>
+        </classes>
+    </test>
+</suite>
